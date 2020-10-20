@@ -2,6 +2,11 @@
   "name": "react-typescript",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'Hello! package.json'"
+    "start": "echo 'Hello! package.json'",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
   }
 }
